@@ -26,7 +26,7 @@ module.exports = {
         proxy: {
             '^/weatherforecast': {
                 target: 'https://localhost:7128/'
-            }
+            },
             '^/externalweatherforecast': {
                 target: 'https://localhost:7128/'
             }
